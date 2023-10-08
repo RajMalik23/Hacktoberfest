@@ -1,12 +1,12 @@
-body {
+/* body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
-}
+} */
 
 /* Header */
-header {
+/* header { 
     background-color: #3498db;
     color: white;
     padding: 20px;
@@ -20,7 +20,7 @@ header {
 .header-content p {
     margin: 0;
     font-size: 18px;
-}
+} */
 
 /* Main Content */
 .container {
@@ -76,7 +76,8 @@ footer {
     color: white;
     text-align: center;
     padding: 10px;
-    position: fixed;
+    position: bottom;
     bottom: 0;
     width: 100%;
+    
 }

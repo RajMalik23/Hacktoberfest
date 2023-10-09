@@ -1,56 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-  <link rel="stylesheet" href="css/login.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-  <title>Login Form</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Responsive Login Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-wrap">
+      <div class="outer-wrap">
+        <h1>Log in</h1>
+        <hr />
+        <div class="social-login">
+          <a href="#">
+            <img class="img" src="images/fb.png" alt="" />
+          </a>
+          <a href="#">
+            <img class="img" src="images/google.png" alt="" />
+          </a>
+          <a href="#">
+            <img class="img" src="images/twitter.png" alt="" />
+          </a>
+        </div>
+        <p>or use your email</p>
 
-    <header>
-        <nav>
-            <ul>
-                <li><a href="about.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="contact.html">Contact</a></li> 
-            </ul>
-        </nav>
-    </header>
-
-    <h1 style="margin-left: 100px; color: white;" >E-Learn</h1>
-    
-
-  <div class="con">
-    <div class="login-container">
-        <img src="./img/user.png" alt="">
-        <h2>Login Here</h2>
-        <form action="#" method="post">
-          <div class="form-group">
-            <label for="username">Username:</label>
-            <input type="text" id="username" name="username" placeholder="Enter your username">
-          </div>
-          <div class="form-group">
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password" placeholder="Enter your password">
-          </div>
-          <button class="button" type="submit">Login</button>
+        <form action="#" class="form">
+          <label for="email">Email</label>
+          <br />
+          <input type="email" name="email" id="email" placeholder="Email" />
+          <br />
+          <label for="password">Password</label>
+          <br />
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+          />
+          <br />
+          <input type="checkbox" name="check" id="check" />
+          <span class="rm-me">Remember Me</span>
+          <a href="#" class="fg-pa">Forgot Password?</a>
+          <br />
+          <button type="submit" class="btn">Log in</button>
         </form>
+        <div class="terms">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+        </div>
       </div>
-  </div>
-
-  <footer class="footer"  >
-    <div class=" subfooter-container "> 
-        <a href="#" target="_blank" ><i class="fa-brands fa-linkedin   fa-xl" style="color: #4400ff;"></i></a>
-        <a href="#" target="_blank" ><i class="fa-brands fa-instagram   fa-xl" style="color: #fb00ff;"></i></a>
-        <a href="#" target="_blank" ><i class="fa-brands fa-whatsapp   fa-xl" style="color: #097000;"></i></a>
     </div>
-    <br>
-    <p class="p" >&copy; 2023 My Login Page</p>
-</footer>
-
-
-</body>
+  </body>
 </html>

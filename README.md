@@ -2,8 +2,6 @@
 
 This is an open-source repository that gathers a variety of projects across different programming languages. Whether you're passionate about JavaScript or any other language, here you can delve into a diverse range of projects. This collection showcases the ingenuity and skills of developers, providing inspiration and practical examples for programming enthusiasts of all proficiency levels.
 
-![hacktoberfest-2023](https://github.com/RajMalik23/Hacktoberfest2023/assets/147269756/a0173cfe-1e71-45ad-bb7b-bb1f09d9a382)
-
 ## INSTRUCTION-
 
 - Fork this Repository using the button at the top on the right corner.
@@ -12,6 +10,10 @@ This is an open-source repository that gathers a variety of projects across diff
 - Add your files (`git add -A`), commit (`git commit -m "added myself"`), and push (`git push origin new-user`)
 - Create a pull request.
 - Star this repository.
+  
+![hacktoberfest-2023](https://github.com/RajMalik23/Hacktoberfest2023/assets/147269756/a0173cfe-1e71-45ad-bb7b-bb1f09d9a382)
+
+
 
 ### Steps to Successfully Raise and Merge Your PR.
 👉 Fork this repository.

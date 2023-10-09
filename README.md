@@ -5,6 +5,8 @@ This is an open-source repository that gathers a variety of projects across diff
 ## INSTRUCTION-
 
 - **Star this repository.**
+- Feel free to spread the word about this repository among your friends who are interested in contributing to open-source projects. We welcome them with open arms.
+- If you have any exceptional projects to share, you can do so by creating a new issue in the repository.
 - Fork this Repository using the button at the top on the right corner.
 - Clone your forked repository to your PC ( git clone "url from clone option.)
 - Create a new branch for your modifications (ie. `git branch new-user` and check it out `git checkout new-user` or simply do `git checkout -b new-user`)

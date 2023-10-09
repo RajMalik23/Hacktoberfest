@@ -4,8 +4,14 @@ This is an open-source repository that gathers a variety of projects across diff
 
 ![hacktoberfest-2023](https://github.com/RajMalik23/Hacktoberfest2023/assets/147269756/a0173cfe-1e71-45ad-bb7b-bb1f09d9a382)
 
-## How to Contribute
-Create outstanding projects, place them in your directory, and initiate a pull request. That's it! ✅
+## INSTRUCTION-
+
+- Fork this Repository using the button at the top on the right corner.
+- Clone your forked repository to your PC ( git clone "url from clone option.)
+- Create a new branch for your modifications (ie. `git branch new-user` and check it out `git checkout new-user` or simply do `git checkout -b new-user`)
+- Add your files (`git add -A`), commit (`git commit -m "added myself"`), and push (`git push origin new-user`)
+- Create a pull request.
+- Star this repository.
 
 ### Steps to Successfully Raise and Merge Your PR.
 👉 Fork this repository.

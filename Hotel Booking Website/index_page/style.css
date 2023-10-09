@@ -1,219 +1,132 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f9f9f9;
-  }
-  
-  header {
-    background: linear-gradient(rgba(52, 152, 219, 0.9), rgba(41, 128, 185, 0.9)), url('https://your-image-url.jpg');
-    background-size: cover;
-    color: white;
-    padding: 50px;
-    text-align: center;
-  }
-  
-  section {
-    padding: 20px;
-    margin: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 10px;
-  }
-  
-  #features{
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.main-wrap{
     display: flex;
-    flex-direction: row;
-    gap: 20px;
-    align-items: center;
     justify-content: center;
-  }
-
-  img{
-    border-radius: 20px;
-  }
-  img:hover{
-    border: 0.5px solid rgb(70, 66, 66);
-    cursor: pointer;
-  }
-
-  #features ul {
-    list-style: none;
-    padding: 0;
-  }
-  
-  #features ul li {
-    margin-bottom: 10px;
-  }
-  
-  #cta {
-    text-align: center;
-  }
-  
-  .cta-button {
-    display: inline-block;
-    padding: 10px 20px;
-    background: #e74c3c;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-  }
-  
-  .cta-button:hover {
-    background: #c0392b;
-  }
-  
-  footer {
-    text-align: center;
-    padding: 10px;
-    background: #264d6a;
-    position: fixed;
-    bottom: 0;
-    color: white;
-    width: 100%;
-  }
- body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0; 
+    align-items: center;
+    background: rgb(248, 246, 246);
     height: 100vh;
-    background: linear-gradient(300deg ,#1010197e,#090633 ,rgb(120, 62, 62)); 
-    background-size: 180% 180%;
-    animation: gradient-animation 6s ease infinite;
-  } 
- 
-
-  @keyframes gradient-animation {
-    0%{
-        background-position: 0% 50%;
-    }
-    50%{
-        background-position: 100% 50%;
-    }
-    100%{
-        background-position: 0% 50%;
-    }
-} 
-
-
-header {
-	background-color: #333;
-	color: #fff;
-	padding: 10px 0;
+    width:100%;
 }
-
-nav ul {
-	list-style: none;
-	text-align: right;
-}
-
-nav li {
-	display: inline;
-	margin-right: 20px;
-}
-
-nav a {
-	text-decoration: none;
-	color: #fff;
-}
-
-
-header{
-    background-color: #19191d;
-}
-  
-  .login-container {
-    background-color: transparent;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
-    max-width: 400px;
-    width: 100%;
-    box-sizing: border-box;
-    margin-bottom: 100px;
-    color: white; 
-  }
-
-  img{
-    width: 30px; 
-    margin-left: 165px;
-  }
-  
-  
-  .con{
-    width: 100%;
-    height: 67vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  h2 {
+.main-wrap .outer-wrap{
+    width:315px;
+    height:460px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow:
+        0 2.8px 2.2px rgba(116, 114, 114, 0.034),
+        0 6.7px 5.3px rgba(116, 114, 114, 0.034),
+        0 10.5px 8px rgba(116, 114, 114, 0.034),
+        0 20.3px 15.9px rgba(116, 114, 114, 0.034),
+        0 21.8px 18.4px rgba(116, 114, 114, 0.034),
+        0 10px 90px rgba(136, 134, 134, 0.034)
+        ;
     text-align: center;
-  }
-  
-  .form-group {
-    margin-bottom: 10px;
-  }
-  
-  label {
-    display: block;
+    padding: 50px 40px;
+}
+h1{
+    font-size: 28px;
+}
+hr{
+    width:40px;
+    background-color: #5730c5;
+    margin: auto;
+    margin-top: 4px;
+    height: 4px;
+}
+.social-login{
+    margin-top:5px;
+}
+.social-login a{
+    width:30px;
+    height:30px;
+    border-radius: 40px;
+    border: 1px solid #dfdede;
+    margin:10px;
+    text-decoration: none;
+    padding: 6px;
+    display: inline-block;
+}
+.social-login a img{
+    width:15px;
+    height:15px;
+}
+p{
+    font-size: 13px;
+    font-weight: 500;
     margin-bottom: 5px;
-  }
-  
-  input {
+}
+.form{
+    text-align: left;
+}
+.form label{
+    font-size: 13px;
+    font-weight: 600;
+}
+.form input{
     width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    background-color: transparent;
-    border-radius: 5px;
-    box-sizing: border-box;
-  }
-  
-  .button {
-    width: 100%;
-    padding: 12px;
-    border: 1px solid white;
-    border-radius: 5px;
-    background-color: transparent;
-    color: white;
-    font-size: 16px;
+    height: 34px;
+    border: 1px solid #dbd8d8;
+    border-radius: 8px;
+    padding-left:6px;
+    margin:8px 0px;
+}
+.form input:focus{
+    border: 1px solid #cac8c8;
+    outline: none;
+    background: #faf9f9;
+}
+.form input::placeholder{
+    color: #c4c2c2;
+}
+.form input[type="checkbox"]{
+    height: 11px;
+    width: 11px;
+    background-color: #b9b8b8;
+}
+.rm-me{
+    font-size: 12px;
+    font-weight: 600;
+    margin-left: 4px;
+}
+.fg-pa{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+    color: #000000;
+    margin-left:20px;
+}
+.fg-pa:hover{
+    border-bottom: 2px solid #802ddf;
+}
+.btn{
+    height:36px;
+    width:100%;
+    border-radius: 20px;
+    background: linear-gradient(to right,#ec8efd, #6024ce);
+    border: none;
+    color: #fff;
     cursor: pointer;
-    box-sizing: border-box;
-  }
-  
-  .button:hover {
-    background-color: #0056b3;
-  }
-  
-  @media (max-width: 600px) {
-    .login-container {
-      max-width: 100%;
-    }
-    img{
-        display: none;
-    }
-  }
-
-  .footer{
-    height: 65px;
-    background-color: #060329;
-    
+    margin-top: 12px;
 }
-footer {
-	background-color: #333;
-	color: #fff;
-	text-align: center;
-	padding: 15px 0;
+.terms{
+    width: 100%;
+    margin-top: 14px;
+    text-align: left;
 }
- 
-.subfooter-container{ 
-    margin-top: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+.terms a{
+    text-decoration: none;
+    color:#000;
+    font-weight: 600;
+    font-size: 12px;
 }
-  
+.terms a:last-of-type{
+    margin-left: 32px;
+}
+.terms a:hover{
+    border-bottom: 2px solid #802ddf;
+}

@@ -30,3 +30,15 @@ function calculate() {
     updateDisplay();
   }
 }
+
+const moonSVG = ``
+
+function darkModeToggle() {
+  if (!document.body.classList.contains("dark")) {
+    document.body.classList.add("dark")
+    document.getElementById("darkToggle").innerText = "Light"
+  } else {
+    document.body.classList.remove("dark")
+    document.getElementById("darkToggle").innerText = "Dark"
+  }
+}

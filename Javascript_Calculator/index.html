@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calculator</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <img width="100px" src="cal.png" alt=""> <br>
-    <h1 style="color: rgb(14, 215, 24);" >Basic Calculator</h1><br>
+  <div class="dark-toggle-btn" id="darkToggle" onclick="darkModeToggle()">
+    Dark
+  </div>
+  <img width="100px" src="cal.png" alt=""> <br>
+  <h1 style="color: rgb(14, 215, 24);">Basic Calculator</h1>
+  <br />
   <div class="calculator">
     <input type="text" id="display" disabled>
     <div class="buttons">
@@ -32,4 +38,5 @@
   </div>
   <script src="script.js"></script>
 </body>
+
 </html>

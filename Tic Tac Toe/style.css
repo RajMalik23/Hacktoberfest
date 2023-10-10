@@ -3,13 +3,24 @@
   margin: 0;
   padding: 0;
 }
+
+:root{
+   --primary-color:#de6262;
+  --secondary-color:#ffb88c; 
+}
+
+.dark-theme{
+  --primary-color:black;
+  --secondary-color:grey;
+}
+
 body {
   font-family: "Nunito", sans-serif;
   display: flex;
   justify-content: center;
   /* align-self: center; */
   /* background-color: black; */
-  background: linear-gradient(to right, #de6262, #ffb88c);
+  background: linear-gradient(to right, var(--primary-color), var(--secondary-color));
 }
 h1 {
   position: absolute;
@@ -102,7 +113,7 @@ h1 {
   height: 50px;
   border: none;
   border-radius: 10px;
-  background-color: #ffb88c;
+  background-color: var(--secondary-color);
   font: sans-serif;
   font-size: 20px;
   letter-spacing: 5px;
@@ -147,3 +158,10 @@ h1 {
   opacity: 0%;
   z-index: 1;
 }
+
+#icon{
+  width: 40px;
+  cursor: pointer;
+}
+
+

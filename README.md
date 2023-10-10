@@ -2,6 +2,16 @@
 
 This is an open-source repository that gathers a variety of projects across different programming languages. Whether you're passionate about JavaScript or any other language, here you can delve into a diverse range of projects. This collection showcases the ingenuity and skills of developers, providing inspiration and practical examples for programming enthusiasts of all proficiency levels.
 
+## Contributors of `Hacktoberfest 2023`
+
+<div align="center">
+
+<a href="https://github.com/RajMalik23/Hacktoberfest/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=RajMalik23/Hacktoberfest" />
+</a>
+  
+  </div>
+  
 ## INSTRUCTION-
 
 - **Star this repository.**
@@ -81,15 +91,6 @@ Most projects include an index.html or index.js file. Open this file in your web
 
 Enjoy experimenting with the project!
 
-## Contributors of `Hacktoberfest 2023`
-
-<div align="center">
-
-<a href="https://github.com/RajMalik23/Hacktoberfest/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=RajMalik23/Hacktoberfest" />
-</a>
-  
-  </div>
 ### Congratulations! You are now a part of the open-source community 🚀🚀🚀"
 
 

@@ -401,3 +401,35 @@ nav {
     gap: 2rem;
   }
 }
+.mode-toggle {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 24px;
+  color: #333; /* Initial color of the icon */
+}
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-mode .mode-toggle {
+  color: #fff;
+}
+.dark-mode .footer__col {
+  color:white;
+  /* background-color: rgb(0, 0, 0); */
+}
+.dark-mode .footer {
+  /* color:white; */
+  background-color: rgb(0, 0, 0);
+}
+.dark-mode .nav__logo {
+  color: #fff;
+}
+.dark-mode .reward__container h4{
+  color: #fff;
+}

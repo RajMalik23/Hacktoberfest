@@ -24,60 +24,84 @@
 
 /* Main Content */
 .container {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
-    width: 100%;
-    margin: 20px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  margin: 20px auto;
 }
 
 .form-group {
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 }
 
 .form-group label {
-    display: block;
-    margin-bottom: 5px;
+  display: block;
+  margin-bottom: 5px;
 }
 
 .form-group input,
 .form-group textarea {
-    width: calc(100% - 20px);
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    margin-bottom: 10px;
+  width: calc(100% - 20px);
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
 }
 
 form textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 button[type="submit"] {
-    width: calc(100% - 20px);
-    padding: 10px;
-    border: none;
-    background-color: #3498db;
-    color: white;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: none;
+  background-color: #3498db;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
 }
 
 button[type="submit"]:hover {
-    background-color: #2980b9;
+  background-color: #2980b9;
 }
 
 /* Footer */
 footer {
-    background-color: #34495e;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    position: bottom;
-    bottom: 0;
-    width: 100%;
-    
+  background-color: #34495e;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: bottom;
+  bottom: 0;
+  width: 100%;
+}
+.mode-toggle {
+  position: fixed;
+  top: 4rem;
+  right: 2rem;
+  /* background: none; */
+  /* border: none; */
+  cursor: pointer;
+  font-size: 24px;
+  color: #333; /* Initial color of the icon */
+}
+.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+.dark-mode .mode-toggle {
+  color: #fff;
+}
+.dark-mode .container {
+  color: #fff;
+  background-color: #231212;
+}
+.dark-mode input,.dark-mode textarea{
+  color: #fff;
+  background-color: #5b5757;
 }

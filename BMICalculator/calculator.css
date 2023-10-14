@@ -1,7 +1,7 @@
 * {
     font-family: Quicksand;
     font-size: 16px;
-    color: #333;
+    color: #4d3434;
 }
 body {
     margin: 0;
@@ -17,7 +17,7 @@ body {
     border-radius: 20px;
     margin: 20px auto 20px auto;
     display: block;
-    border: solid 1px #289df6;
+    border: solid 1px #e199bb;
     box-shadow: 0 0 40px 0 #ddd;
 }
 .form:hover {
@@ -35,7 +35,7 @@ body {
     width: 60px;
     height: 30px;
     border-radius: 10px;
-    background-color: #dbeffe;
+    background-color: #f48cab;
     border: none;
     outline: none;
     padding: 5px 10px;
@@ -45,14 +45,14 @@ body {
     margin-bottom: 35px;
 }
 .text-input:hover {
-    background-color: #cbe7fd;
+    background-color: #f48cab;
 }
 #submit {
     border: none;
     border-radius: 10px;
     height: 40px;
     width: 140px;
-    background-color: #289df6;
+    background-color: #f48cab;
     color: #fff;
     margin: auto;
     display: block;
@@ -60,7 +60,7 @@ body {
     cursor: pointer;
 }
 #submit:hover {
-    background-color: #0a8ef2;
+    background-color: #f48cab;
 }
 .text {
     display: inline-block;
@@ -89,20 +89,20 @@ body {
     left: 0;
     height: 25px;
     width: 25px;
-    background-color: #dbeffe;
+    background-color: #f48cab;
     border-radius: 50%;
 }
 .container:hover input ~ .checkmark {
-    background-color: #cbe7fd;
+    background-color: #f48cab;
 }
 .container input:checked ~ .checkmark {
-    background-color: #289df6;
+    background-color: #f48cab;
 }
 h1 {
     font-size: 30px;
     font-weight: 300;
     text-align: center;
-    color: #289df6;
+    color: #f48cab;
     padding-top: 15px;
     display: block;
 }
@@ -120,7 +120,7 @@ h3 {
 h3 b {
     font-size: 32px;
     font-weight: 300;
-    color: #289df6;
+    color: #f48cab;
 }
 .checkmark:after {
     content: "";

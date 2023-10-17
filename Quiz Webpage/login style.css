@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  place-items: center;
+  background: linear-gradient(#ffdec0, #ffffff, #f7bf53 100%);
+  /* background: linear-gradient(180deg, #e0e1ff 0%, #9195ff 100%) */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 70px 40px;
+  gap: 70px;
+
+  position: absolute;
+  width: 790px;
+  height: 846.81px;
+  left: calc(50% - 790px / 2);
+  top: calc(50% - 846.81px / 2);
+
+  background: #ffdec0;
+  border-radius: 20px;
+}
+
+.title {
+  width: 468px;
+  height: 48px;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 42px;
+  line-height: 63px;
+  display: flex;
+  align-items: center;
+  margin-left: 150px;
+  margin-bottom: 70px;
+
+  color: #73451c;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+input {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 20px 40px;
+  gap: 10px;
+
+  text-align: center;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+
+  width: 710px;
+  height: 91px;
+
+  background: #ffffff;
+  border-radius: 20px;
+  font-size: 25px;
+  border: none;
+
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.logo1 {
+  border-radius: 60px;
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  margin-left: 170px;
+  margin-bottom: 40px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.logo2 {
+  position: absolute;
+  width: 121px;
+  height: 121px;
+  left: 40px;
+  top: 40px;
+  border-radius: 50%;
+}
+
+button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 40px;
+  gap: 10px;
+  font-size: 16px;
+  margin-top: 40px;
+  border: none;
+
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 34.25px;
+  color: #ffffff;
+
+  width: 710px;
+  height: 91px;
+
+  background: #6369ff;
+  border-radius: 20px;
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+
+.bulet1 {
+  border-radius: 50%;
+  position: absolute;
+  width: 433px;
+  height: 433px;
+  left: -116px;
+  top: -116px;
+  background: linear-gradient(180deg, #e0e1ff 0%, #9195ff 100%);
+}
+
+.bulet2 {
+  border-radius: 50%;
+  position: absolute;
+  margin-left: 1700px;
+  width: 433px;
+  height: 433px;
+  margin-top: 700px;
+  background: linear-gradient(180deg, #fdecc1 0%, #f4b47a 100%);
+}
